@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Завдання:
+        Створіть функцію random(min, max), яка повертає випадкове значення діапазону від min до max.
+        Зробіть, щоб запрацював сценарій. Код створення випадкового значення знайдіть за допомогою пошукової системи
+        або в завданнях з минулих уроків. -->
+   
+    <script>
+        let throwCount = +prompt("Скільки разів ви хочете кинути шостигранний кубик");
+
+        function random(min, max) {
+    return Math.random() * (max - min) + min;
+}
+
+
+let minValue = 10;
+let maxValue = 20;
+let randomValue = random(minValue, maxValue);
+
+console.log("Випадкове значення в діапазоні від", minValue, "до", maxValue, ":", randomValue);
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

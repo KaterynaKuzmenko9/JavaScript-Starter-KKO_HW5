@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--  Створіть функцію avg(a, b, c), яка повертає середнє арифметичне для чисел a, b, c
+        Якщо параметр відсутній, не використовуйте значення для розрахунку середнього арифметичного значення. -->
+</head>
+<body>
+    <script>
+   function avg(a, b, c) {
+    let кількістьЧисел = 0;
+    if (typeof a !== 'undefined') {
+        сума += a;
+        кількістьЧисел++;
+    }
+
+    if (typeof b !== 'undefined') {
+        сума += b;
+        кількістьЧисел++;
+    }
+
+    if (typeof c !== 'undefined') {
+        сума += c;
+        кількістьЧисел++;
+    }
+
+
+   let середнє = кількістьЧисел > 0 ? сума / кількістьЧисел : 0;
+
+    return середнє;
+}
+
+   
+
+    </script>
+ 
+    
+</body>
+</html>
